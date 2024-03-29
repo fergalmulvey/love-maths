@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function(){
             }
             else {
                 let gameType = this.getAttribute("data-type");
-                runGame(gameType)
+                runGame(gameType);
             }
         })
     }
